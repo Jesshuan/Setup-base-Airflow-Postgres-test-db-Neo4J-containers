@@ -1,7 +1,8 @@
-## DEEPMICROBIOT - GRAPH DB
-## PROOF OF CONCEPT
+## SETUP ARIFLOW-POSTGRES-DB-NEO4J
 
-(en construction)
+(in french !)
+
+Un simpel repo de setup qui fonctionne entre trois containers déployés en local (ou hébergés ailleurs, il suffit de changer les adresses de connexions par la suite...) pour simuler des dags Airflow qui agissent sur une simple base de données Postgres d'un côté et une base de données orientée graphe Neo4j de l'autre
 
 #### Architecture
 
@@ -90,6 +91,8 @@ Il est posible d'ajouter un fichier .env à la main à la racine du dossier avec
 - lancer ensuite la commande : 'docker compose up ' pour lancer tous les autres containers
 
 - L'interface airflow est visible en local à l'adresse localhost par défaut : 'http://localhost:8080'
+
+- l'identifiant et le passe sont tous deux par défaut : airflow
 
 - Connection à la Database POSTGRES :
 
