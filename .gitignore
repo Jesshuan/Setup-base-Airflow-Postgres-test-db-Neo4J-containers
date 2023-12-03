@@ -1,0 +1,15 @@
+AIRFLOW/config/logs
+AIRFLOW/config/webserver_config.py
+AIRFLOW/dags/__pycache__
+AIRFLOW/logs
+AIRFLOW/plugins/__pycache__
+AIRFLOW/plugins/custom_functions/__pycache__
+AIRFLOW/plugins/custom_operators/__pycache__
+AIRFLOW/.env
+Drafts
+postgres_data
+NEO4J/conf
+NEO4J/data
+NEO4J/import
+NEO4J/logs
+NEO4J/plugins
